@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style-cadastro.css">
+
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-image">
+            <img src="img/undraw_software_engineer_re_tnjc.svg" alt="mulher sentada ao lado de um computador">
+        </div>
+        <div class="form">
+            <form id="formulario">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Cadastre-se</h1>
+                    </div>
+                    <div class="login-button">
+                        <button><a href="/login.html">Entrar</a></button>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="firstname">Primeiro nome</label>
+                        <input id="firstname" type="text" name="firstname" placeholder="Digite o seu primeiro nome">
+                    </div>
+
+                    <div class="input-box">
+                        <label for="lastname">Sobrenome</label>
+                        <input id="lastname" type="text" name="lastname" placeholder="Digite o seu sobrenome">
+                    </div>
+
+                    <div class="input-box">
+                        <label for="email">E-mail</label>
+                        <input id="email" type="email" name="email" placeholder="Digite o seu email">
+                    </div>
+
+                    <div class="input-box">
+                        <label for="number">Celular</label>
+                        <input id="number" type="tel" name="number" placeholder="(xx) xxxxx-xxxx">
+                    </div>
+
+                    <div class="input-box">
+                        <label for="password">Senha</label>
+                        <input id="password" type="password" name="password" placeholder="Digite a sua senha">
+                    </div>
+
+                    <div class="input-box">
+                        <label for="Confirmpassword">Confirme sua senha</label>
+                        <input id="Confirmpassword" type="password" name="Confirmpassword" placeholder="Digite sua senha novamente">
+                    </div>
+
+                </div>
+
+
+                    <div class="curso-inputs">
+                        <div class="curso-title">
+                            <h6>Curso</h6>
+                        </div>
+
+                        <div class="curso-group">
+                            <div class="curso-input">
+                                <input type="radio" id="python-introd" name="curso" checked>
+                                <label for="python-introd">Python - Introdução</label>
+                            </div>
+
+                            <div class="curso-input">
+                                <input type="radio" id="python-inter" name="curso">
+                                <label for="python-inter">Python - Intermediário</label>
+                            </div>
+
+                            <div class="curso-input">
+                                <input type="radio" id="fullstack" name="curso">
+                                <label for="fullstack">Full Stack</label>
+                            </div>
+                        </div>
+                    </div>
+
+                <div class="continue-button">
+                    <button id="continue-button"><a href="#">Continuar</a></button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="scripts/cadastro.js"></script>
+
+</body>
+
+</html>
