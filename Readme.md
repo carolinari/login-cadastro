@@ -9,3 +9,5 @@ O projeto é formado por duas páginas:
 
 
 HTML | CSS | JavaScript
+
+![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/85963623/164264778-476b2c2b-83bc-4bbc-94e1-e03f5ddfeebe.gif)
