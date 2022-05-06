@@ -11,3 +11,7 @@ O projeto é formado por duas páginas:
 HTML | CSS | JavaScript
 
 ![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/85963623/164264778-476b2c2b-83bc-4bbc-94e1-e03f5ddfeebe.gif)
+
+Tela responsiva
+
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/85963623/167156846-f78e5aec-5970-4113-9475-51f2c982aa37.gif)
